@@ -6,5 +6,6 @@ To run this project, do the following:
 
 * Download the project as a .zip file or clone the repository to your computer.
 * CD into the main directory.
+* Run ```pip3 install -r requirements.txt```
 * Run ```python3 wsgi.py``` via your IDE terminal (or terminal of choice).
 * CMD + Click on the url provided ( http://127.0.0.1:5000/ )
