@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Amira's Assessment</title>
+    <link rel='stylesheet' type='text/css' media='screen' href="{{url_for('static', filename='styles/css/bootstrap.css')}}">
+    <link rel='stylesheet' type='text/css' href="{{url_for('static', filename='styles/css/style.css')}}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="single-container">
+        <img class="grid-two" src="{{url_for('static', filename='/img/nero2.png')}}" usemap="#column1-button" alt="">
+            <map name="column1-button">
+                <area shape="rect" coords="13,21,58,57" href="/oscon">
+                <area shape="rect" coords="300,14,326,64" href="/">
+            </map>
+            <img class="server" src="{{url_for('static', filename='/img/server.png')}}" alt="">
+            <div class="networks-overlay networks-overlayFade overlay-padding">
+                <div class="overlay-title-padding">
+                    <h2>neroHUB</h2>
+                </div> 
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </h5>
+                <div class="overlay-button-padding">
+                    <button type="button" class="btn btn-primary-networks btn-sm">Learn More</button>
+                    <button type="button" class="btn btn-secondary btn-sm">Contact Us</button>
+                </div>
+            </div>
+            <img class="networks-return-right" src="{{url_for('static', filename='img/networks-return-right.png')}}" usemap="#navigation" alt="">
+            <map name="navigation">
+                <area shape="rect" coords="20,21,45,54" href="/poynt" >
+                <area shape="rect" coords="284,17,331,53" href="/node" >
+            </map>
+    </div>
+
+</body>
+
+</html>

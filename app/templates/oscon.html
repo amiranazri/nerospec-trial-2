@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Amira's Assessment</title>
+  <link rel='stylesheet' type='text/css' media='screen' href="{{url_for('static', filename='styles/css/bootstrap.css')}}">
+  <link rel='stylesheet' type='text/css' href="{{url_for('static', filename='styles/css/style.css')}}">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); </style>
+  <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap'); </style>
+</head>
+
+<body>
+
+    <div class="single-container">
+        <img class="grid-one" src="{{url_for('static', filename='/img/nero1.png')}}" usemap="#return" alt="">
+            <map name="return">
+                <area shape="rect" coords="284,17,331,53" href="/">
+            </map>
+            <img class="cave" src="{{url_for('static', filename='/img/cave.png')}}" alt="">
+            <div class="oscon-overlay oscon-overlayFade overlay-padding">
+                <div class="overlay-title-padding">
+                    <h2>neroHUB</h2>
+                </div> 
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </h5>
+                <div class="overlay-button-padding">
+                    <button type="button" class="btn btn-primary-oscon btn-sm">Learn More</button>
+                    <button type="button" class="btn btn-secondary btn-sm">Contact Us</button>
+                </div>
+
+            </div>
+            <img class="oscon-return-right" src="{{url_for('static', filename='/img/oscon-return-right.png')}}" usemap="#return-button-right" alt="">
+                <map name="return-button-right">
+                    <area shape="rect" coords="7,22,48,52" href="/networks" >
+                    <area shape="rect" coords="69,22,107,55" href="/poynt" >
+                    <area shape="rect" coords="128,22,167,56" href="/node" >
+                </map>
+        </div>
+
+</body>
+</html>

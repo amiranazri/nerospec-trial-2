@@ -1,0 +1,214 @@
+area {
+    display: none;
+}
+
+/* OSCON - OSCON - OSCON */
+
+.oscon-overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    background-color: rgb(255, 255, 255);
+}
+
+.container:hover .oscon-overlay {
+    opacity: 1;
+}
+
+.oscon-overlayFade {
+    height: 19vw;
+    width: 15vw;
+    top: 11vw;
+    left: 28.5vw;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+.oscon-return-right {
+    height: 31vw;
+    width: 8vw;
+    padding-left: 0.05vw;
+}
+
+/* NETWORK - NETWORK - NETWORK */
+
+.networks-return-right {
+    height: 30vw;
+    width: 5.2vw;
+    padding-left: 0.08vw;
+}
+
+.networks-return-left {
+    height: 30vw;
+    width: 3vw;
+    padding-left: 0.08vw;
+}
+
+.networks-overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    background-color: rgb(255, 255, 255);
+}
+
+.container:hover .networks-oscon-overlay {
+    opacity: 1;
+}
+
+.networks-overlayFade {
+    height: 19vw;
+    width: 15vw;
+    top: 11vw;
+    left: 30.9vw;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+/* POYNT - POYNT - POYNT */
+
+.poynt-return-right {
+    height: 30vw;
+    width: 2.7vw;
+    padding-left: 0.08vw;
+}
+
+.poynt-overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 85%;
+    background-color: rgb(255, 255, 255);
+}
+
+.container:hover .poynt-overlay {
+    opacity: 1;
+}
+
+.poynt-overlayFade {
+    height: 19vw;
+    width: 15vw;
+    top: 11vw;
+    left: 34.1vw;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+/* NODE - NODE - NODE */
+
+.node-overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    background-color: rgb(255, 255, 255);
+}
+
+.container:hover .node-overlay {
+    opacity: 1;
+}
+
+.node-overlayFade {
+    height: 19vw;
+    width: 15vw;
+    top: 11vw;
+    left: 39vw;
+    background-color: rgba(255, 255, 255, 0.911);
+}
+
+/* IMAGES - IMAGES - IMAGES */
+
+.rails {
+    height: 30vw;
+    width: 50vw;
+}
+
+.cave {
+    height: 31vw;
+    width: 50vw;
+}
+
+.truck {
+    height: 30vw;
+    width: 45vw;
+}
+
+.server {
+    height: 30vw;
+    width: 50vw;
+}
+
+/* INDEX GRIDS - INDEX GRIDS */
+
+.index-grid {
+    height: 33vw;
+    width: 40vw;
+    
+}
+
+.grid-one {
+    height: 32vw;
+    width: 15vw;
+    align-items: center;
+    padding-bottom: 1vw;
+    padding-right: 0.12vw;
+}
+
+.grid-two {
+    height: 31vw;
+    width: 17vw;
+    align-items: center;
+    padding-bottom: 1vw;
+    padding-right: 0.12vw;
+}
+
+.grid-three {
+    height: 31vw;
+    width: 21vw;
+    align-items: center;
+    padding-bottom: 1vw;
+    padding-right: 0.10vw;
+}
+
+.grid-four {
+    height: 31vw;
+    width: 23vw;
+    align-items: center;
+    padding-bottom: 1vw;
+    padding-right: 0.12vw;
+}
+
+/* GENERAL - GENERAL - GENERAL - */
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    }
+
+.single-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+}
+
+.button-contact {
+    background-color: white;
+    border: none;
+    border-radius: 1px;
+    color: black;
+    font-size: 2.5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    padding: 1.2px 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay-padding {
+    padding-left: 0.6vw;
+    padding-right: 1vw;
+}
+
+.overlay-title-padding {
+    padding-top: 1.2vw;
+}
+
+.overlay-button-padding {
+    padding-top: 2vw;
+}
