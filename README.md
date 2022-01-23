@@ -1,6 +1,6 @@
 # nerospec-trial1
 
-This project is based on the provided [Nerosec design](https://xd.adobe.com/view/10371fff-b324-48e5-9f5d-b977a4fdf50d-4564/).
+This project is based on the provided [Nerospec design](https://xd.adobe.com/view/10371fff-b324-48e5-9f5d-b977a4fdf50d-4564/).
 
 To run this project, do the following:
 
